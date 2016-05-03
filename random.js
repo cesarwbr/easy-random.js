@@ -10,6 +10,7 @@ module.exports = {
   nextInt: function(max) {
     if(!max) {
       console.error('EASY RANDOM: You should pass a max argument.');
+      return;
     }
 
     return Math.floor(Math.random() * (max));
