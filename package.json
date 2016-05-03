@@ -1,7 +1,7 @@
 {
   "name": "easy-random",
   "version": "1.0.0",
-  "description": "A generator of random bool, int, or double values.",
+  "description": "An easy generator of random bool, int, or double values.",
   "main": "random.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
