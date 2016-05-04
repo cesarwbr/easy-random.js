@@ -4,12 +4,16 @@
   "description": "An easy generator of random bool, int, or double values.",
   "main": "random.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "random",
     "math"
   ],
   "author": "Cesar William <cesarwbr@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
