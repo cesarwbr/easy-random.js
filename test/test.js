@@ -1,4 +1,4 @@
-'use strinct';
+'use strict';
 
 const expect = require('chai').expect;
 const random = require('../random.js');
