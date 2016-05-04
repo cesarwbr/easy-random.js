@@ -34,6 +34,22 @@ You can generate random booleans:
 random.nextBool(); // true or false
 ```
 
+### nextInt
+
+Generate random int numbers:
+
+```js
+random.nextInt(10); // Between 0 and 9
+```
+
+### nextDouble
+
+Generate random double numbers:
+
+```js
+random.nextDouble(); // Between 0.0 and 1.0: [0, 1)
+```
+
 ## License
 
 [MIT License](http://mit-license.org/) © Cesar William
