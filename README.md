@@ -26,6 +26,14 @@ import random from 'easy-random';
 
 # Usage
 
+### nextBool
+
+You can generate random booleans:
+
+```js
+random.nextBool(); // true or false
+```
+
 ## License
 
 [MIT License](http://mit-license.org/) © Cesar William
