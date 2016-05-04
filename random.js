@@ -9,8 +9,7 @@ module.exports = {
     },
     nextInt: function(max) {
         if (!max) {
-            console.error('EASY RANDOM: You must pass a max argument.');
-            return;
+            throw new EasyRandomException('EASY RANDOM: You must pass a max argument.');
         }
 
         return Math.floor(Math.random() * (max));
@@ -20,12 +19,11 @@ module.exports = {
             return seq[this.nextInt(seq.length - 1)];
         }
 
-        console.error('EASY RANDOM: You must pass a sequence of Array or String as argument.');
+        throw new EasyRandomException('EASY RANDOM: You must pass a sequence of Array or String as argument.');
     },
     shuffle: function(seq) {
         if (!seq || !(seq instanceof Array)) {
-            console.error('EASY RANDOM: You must pass a sequence of Array as argument.');
-            return;
+            throw new EasyRandomException('EASY RANDOM: You must pass a sequence of Array as argument.');
         }
 
         var counter = seq.length;
@@ -45,13 +43,11 @@ module.exports = {
     },
     sample: function(population, len) {
       if (!population || !len) {
-          console.error('EASY RANDOM: You must pass a population of Array and length list of unique elements as argument.');
-          return;
+          throw new EasyRandomException('EASY RANDOM: You must pass a population of Array and length list of unique elements as argument.');
       }
 
       if (len > population.length) {
-          console.error('EASY RANDOM: The length list of unique elements must be less than population length.');
-          return;
+          throw new EasyRandomException('EASY RANDOM: The length list of unique elements must be less than population length.');
       }
 
       var seq = this.shuffle(population);
@@ -59,3 +55,8 @@ module.exports = {
       return seq.slice(0, len);
     }
 };
+
+function EasyRandomException(message) {
+  this.message = message;
+  this.name = 'EasyRandomException';
+}
