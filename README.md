@@ -14,14 +14,18 @@ npm install easy-random --save
 
 First, you need to instantiate it using Node.js module loading system.
 
-```javascript
-var random = require('easy-random');
+```js
+const random = require('easy-random');
 ```
 
 Or ES6 module, too.
 
-```javascript
+```js
 import random from 'easy-random';
 ```
 
 # Usage
+
+## License
+
+[MIT License](http://mit-license.org/) © Cesar William
