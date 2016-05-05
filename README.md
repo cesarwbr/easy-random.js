@@ -49,6 +49,29 @@ Generate random double numbers:
 ```js
 random.nextDouble(); // Between 0.0 and 1.0: [0, 1)
 ```
+### choice
+
+Choose a random element:
+
+```js
+random.choice('abcdefghij'); // choose a random char on a String
+random.choice('[1, 2, 3, 4, 5, 6]'); // choose a random item on a Array
+```
+
+### shuffle
+
+Shuffle the sequence in place:
+
+```js
+const items = [1, 2, 3, 4, 5, 6, 7];
+random.shuffle(items); // [7, 3, 2, 5, 6, 4, 1]
+```
+
+### sample
+Return a x length list of unique elements chosen from the population sequence.
+```js
+random.sample([1, 2, 3, 4, 5],  3); // Choose 3 elements. [4, 1, 5]
+```
 
 ## License
 
