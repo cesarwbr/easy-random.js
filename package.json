@@ -10,6 +10,10 @@
     "random",
     "math"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cesarwbr/easy-random.js.git"
+  },
   "author": "Cesar William <cesarwbr@gmail.com>",
   "license": "MIT",
   "devDependencies": {
