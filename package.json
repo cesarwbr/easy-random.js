@@ -1,6 +1,6 @@
 {
   "name": "easy-random",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An easy generator of random bool, int, or double values.",
   "main": "random.js",
   "scripts": {
