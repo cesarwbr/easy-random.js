@@ -1,6 +1,6 @@
 # easy-random.js
 
-[![Build Status](http://img.shields.io/travis/cesarwbr/easy-random/master.svg?style=flat)](https://travis-ci.org/cesarwbr/easy-random)
+[![Build Status](http://img.shields.io/travis/cesarwbr/easy-random.js/master.svg?style=flat)](https://travis-ci.org/cesarwbr/easy-random.js)
 
 > An easy to use random helper for your applications.
 
