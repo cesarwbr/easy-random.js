@@ -1,6 +1,14 @@
 # easy-random.js
 
-[![Build Status](http://img.shields.io/travis/cesarwbr/easy-random.js/master.svg?style=flat)](https://travis-ci.org/cesarwbr/easy-random.js)
+
+
+
+[![npm](https://img.shields.io/npm/dt/easy-random.svg)](https://www.npmjs.com/package/easy-random)
+[![license](https://img.shields.io/github/license/cesarwbr/easy-random.js.svg)](https://github.com/cesarwbr/easy-random.js/blob/master/LICENSE.md)
+[![GitHub tag](https://img.shields.io/github/tag/cesarwbr/easy-random.js.svg)](https://github.com/cesarwbr/easy-random.js)
+[![Build Status](http://img.shields.io/travis/cesarwbr/easy-random.js/master.svg?style=flat)](https://travis-ci.org/cesarwbr/easy-random.js) 
+[![GitHub issues](https://img.shields.io/github/issues/cesarwbr/easy-random.js.svg)](https://github.com/cesarwbr/easy-random.js/issues)
+
 
 > An easy to use random helper for your applications.
 
